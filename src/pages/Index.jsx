@@ -11,8 +11,8 @@ const Index = () => {
     // Simulate voice input for demonstration purposes
     setReportText("Voice input simulated: Fracture observed in the upper right femur.");
     toast({
-      title: "Voice Input",
-      description: "Voice input simulated and added to the report.",
+      title: "Voice Input Received",
+      description: "Voice input processed and added to the report.",
       status: "info",
       duration: 5000,
       isClosable: true,
@@ -23,7 +23,7 @@ const Index = () => {
     // Simulate saving the report
     toast({
       title: "Report Saved",
-      description: "Your report has been successfully saved.",
+      description: "Your report has been successfully saved and is ready for review.",
       status: "success",
       duration: 5000,
       isClosable: true,
@@ -36,7 +36,7 @@ const Index = () => {
     setImages([...images, newImage]);
     toast({
       title: "Image Added",
-      description: "A key image has been added to the report.",
+      description: "A new key image has been successfully added to the report.",
       status: "success",
       duration: 5000,
       isClosable: true,
